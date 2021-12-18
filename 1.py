@@ -1,28 +1,32 @@
 # deb calc
-while True:
+while a = 'Exit':
+
     a = float(input("Первое число:"))
 
     z = input("Действие:")
 
-    b: float = float(input("Второе число:"))
-    if a.lower() == "Exit":
-        break
+    b = float(input("Второе число:"))
+
+    recult = (" - результат")
+    
+    
 
 if z == "+":
     c = a + b
-    print(int(a) + str(z) + int(c) + '  - результат')
+    print(int(a) + str(z) + int(c) + recult)
 
 elif z == "-":
     c = a - b
-    print(str(c) + " - результат")
+    print(str(c) + recult)
 
 elif z == "*":
     c = a * b
-    print(str(c) + " - результат")
+    print(str(c) + recult)
 
 elif z == "/":
     c = a // b
-    print(str(c) + " - результат")
+    print(str(c) + recult)
+
 
 else:  # z != "+", "-", "*", "/":
     print("Указан не верный оператор")
