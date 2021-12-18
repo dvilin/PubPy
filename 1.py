@@ -1,17 +1,17 @@
 # deb calc
-    a = float(input("Первое число:"))
+a = float(input("Первое число:"))
 
-    z = input("Действие:")
+z = input("Действие:")
 
-    b = float(input("Второе число:"))
+b = float(input("Второе число:"))
 
-    recult = (" - результат")
+recult = (" - результат")
     
     
 
 if z == "+":
     c = a + b
-    print(int(a) + str(z) + int(c) + recult)
+    print(str(c) + recult)
 
 elif z == "-":
     c = a - b
